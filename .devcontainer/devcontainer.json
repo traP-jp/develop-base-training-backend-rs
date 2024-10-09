@@ -1,0 +1,21 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "src/main.rs"
+            ]
+        },
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer"
+            ]
+        }
+    },
+   "forwardPorts": [8080],
+   "portsAttributes": {
+      "8080": {
+         "visibility": "public"
+       }
+    }
+}
